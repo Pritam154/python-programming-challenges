@@ -19,8 +19,10 @@ def palindrome(s):
         return 'N'
 
 
-number_of_cases = int(input())
-palindrome_list = []
+if __name__ == '__main__':
+    number_of_cases = int(input())
+    palindrome_list = []
 
-[palindrome_list.append(palindrome(input())) for i in range(number_of_cases)]
-[print(i, end=' ') for i in palindrome_list]
+    [palindrome_list.append(palindrome(input()))
+        for i in range(number_of_cases)]
+    [print(i, end=' ') for i in palindrome_list]
