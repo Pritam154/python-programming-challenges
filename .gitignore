@@ -11,3 +11,5 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+code_abbey/.vscode/settings.json
+python_code_challenges.code-workspace
