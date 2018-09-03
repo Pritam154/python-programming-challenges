@@ -11,8 +11,8 @@ def solve(s):
         result += char
     return result
 
-
-if __name__ == '__main__':
-    print(solve('132 456 Wq  m e'))
-    print(solve('hello   world  lol'))
-    print(solve('hello world'))
+# For testing a few test cases
+# if __name__ == '__main__':
+#     print(solve('132 456 Wq  m e'))
+#     print(solve('hello   world  lol'))
+#     print(solve('hello world'))
